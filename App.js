@@ -6,7 +6,12 @@ import CarItem from "./Components/carItem/index";
 export default function App() {
   return (
  <View style={styles.container}>
-<CarItem />
+<CarItem 
+name={"Model X"}
+tagline={"Starting from 69,000"}
+taglineCTA={"Touchless"}
+Image={require("./assets/Images/ModelX.jpeg")}
+/>
 <StatusBar style="auto"/>
  </View>
 
@@ -19,4 +24,4 @@ const styles=StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-})
+});
