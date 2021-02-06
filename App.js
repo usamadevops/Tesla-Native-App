@@ -8,7 +8,7 @@ export default function App() {
  <View style={styles.container}>
    <Header />
 <CarsList />
-<StatusBar style="auto"/>
+<StatusBar style="hide" hidden={true}/>
 </View>
 
   );
